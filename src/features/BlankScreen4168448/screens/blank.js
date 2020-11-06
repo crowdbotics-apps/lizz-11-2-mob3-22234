@@ -28,6 +28,14 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Text>Sample text content</Text>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -37,6 +45,17 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Button_3: {}
+  Button_3: {},
+  View_1: {},
+  Button_3: {},
+  Button_4: {},
+  Text_5: {},
+  Button_6: {},
+  Button_7: {},
+  Button_8: {},
+  Button_9: {},
+  Button_10: {},
+  Button_11: {}
 })
